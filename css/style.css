@@ -61,7 +61,7 @@ body {
     top: 0;
     left: -100%;
     width: 250px;
-    height: 30vh;
+    height: 100vh;
     margin: 0;
     padding: 80px 0;
     list-style: none;
@@ -80,3 +80,42 @@ body {
   .menu__item:hover {
     color: rgba(10, 10, 10, 0.5);
   }
+
+
+  /* footer */
+
+  .footer {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 25vh;
+    bottom: 0vh;
+    background-color: #dfc8a2;
+    text-align: center;
+  }
+
+
+
+  .footer-adress span {
+    font-weight: 700;
+    font-size: large;
+  }
+
+  /* .social-links a {
+    justify-content: space-around;
+  } */
+
+  .social-links a i {
+    font-size: x-large;
+    color: #abdbe3;
+    padding-left: 10px;
+  }
+
+  .copyright {
+    font-size: smaller;
+    text-align: center;
+  }
+
