@@ -81,6 +81,37 @@ body {
     color: rgba(10, 10, 10, 0.5);
   }
 
+  /* Home page mobile */
+
+  .container {
+    background-image: url(./../assets/img/ice-cream-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75vh;
+  }
+
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10vh;
+    font-size: 25px;
+  }
+
+  .hero-text a {
+    text-decoration: none;
+    margin-top: 50px;
+  }
+
+  .hero-text a i {
+    font-size: 65px;
+    color: azure;
+  }
+
+  .hero-text a p {
+    color: azure;
+    font-weight: 800;
+  }
 
   /* footer */
 
@@ -110,7 +141,7 @@ body {
 
   .social-links a i {
     font-size: x-large;
-    color: #abdbe3;
+    color: #0a0a0a;
     padding-left: 10px;
   }
 
