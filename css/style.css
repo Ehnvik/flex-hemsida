@@ -165,6 +165,7 @@ body {
 
   .contact-info ul li:nth-child(1) {
     text-align: start;
+    color: #0a0a0a;
   }
 
   .contact-page span {
