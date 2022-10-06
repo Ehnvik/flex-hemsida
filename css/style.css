@@ -156,6 +156,10 @@ body {
 
   /* contact page */
 
+  .contact-h2 {
+    text-align: center;
+  }
+
   .contact-page {
     display: flex;
     flex-direction: column;
@@ -369,18 +373,8 @@ body {
         background-color: rgba(10, 10, 10, 0.75);
       }
 
-    /* footer */
 
-    .social-links a i {
-      padding-left: 25px;
-      transition: all 0.30s ease-in-out;
-    }
-
-    .social-links a i:hover {
-      transform: scale(1.25);
-    }
-
-    /* menu page */
+       /* menu page */
 
     .menu-container h2, p {
       text-align: center;
@@ -413,6 +407,71 @@ body {
       margin: 10px 0px;
       text-align: start;
     }
+
+    /* contact page */
+
+    .contact-h2 {
+      margin-top: 40px;
+      font-size: 40px;
+    }
+
+    .contact-page {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 50px;
+    }
+
+    .contact-info {
+      margin-top: -127px;
+    }
+
+    .contact-info ul {
+      padding-left: 0;
+     }
+
+    .contact-info ul li span {
+      font-size: 18px;
+    }
+
+   .contact-info h3 {
+    text-align: start;
+    font-size: 22px;
+   }
+
+   .opening-hours h3 {
+    font-size: 22px;
+   }
+
+   .opening-hours ul li span {
+    font-size: 18px;
+   }
+
+  
+
+    .contact-map {
+      display: block;
+      text-align: center;
+      font-size: auto;
+    }
+
+    .contact-map iframe {
+      width: 600px;
+      height: 430px;
+    }
+
+    /* footer */
+
+    .social-links a i {
+      padding-left: 25px;
+      transition: all 0.30s ease-in-out;
+    }
+
+    .social-links a i:hover {
+      transform: scale(1.25);
+    }
+
+   
  
   
 
