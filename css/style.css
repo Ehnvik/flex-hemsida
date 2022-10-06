@@ -146,6 +146,7 @@ body {
   .flavor-list ul li {
     list-style: none;
     margin: 2px 0px;
+    text-align: start;
   }
 
   .flavor-list ul li span {
@@ -168,6 +169,7 @@ body {
   .contact-page article ul li {
     list-style: none;
     padding-bottom: 4px;
+    text-align: start;
   }
 
   .contact-info ul li:nth-child(1) {
@@ -253,10 +255,6 @@ body {
     font-size: large;
   }
 
-  /* .social-links a {
-    justify-content: space-around;
-  } */
-
   .social-links a i {
     font-size: x-large;
     color: #0a0a0a;
@@ -323,6 +321,53 @@ body {
     .hero-text a i:hover {
       transform: scale(1.35);
     }
+
+      /* catering */ 
+
+      .catering-text h2 {
+        font-size: 40px;
+      }
+    
+      .catering-text p {
+        text-align: center;
+        margin-top: 0;
+        font-size: 18px;
+        width: 50vw;
+      }
+
+      .form {
+        margin-top: 50px;
+      }
+
+      .form label {
+        font-weight: 700;
+        margin-top: 10px;
+      }    
+
+      .form input {
+        width: 50vw;
+        height: 30px;
+      }
+
+      .form textarea {
+        width: 50vw;
+        margin-top: 15px;
+      }
+
+      .form-button {
+        margin-top: 10px;
+        width: 80px;
+        height: 30px;
+        font-weight: 700;
+        border: none;
+        background-color: #0a0a0a;
+        color: azure;
+        transition: all 0.25s ease-in-out;
+      }
+
+      .form-button:hover {
+        background-color: rgba(10, 10, 10, 0.75);
+      }
 
     /* footer */
 
